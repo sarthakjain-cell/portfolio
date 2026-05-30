@@ -66,6 +66,44 @@ const projects = [
     ],
     github: 'https://github.com/sarthakjain-cell/parking-lot-management',
     demo: 'https://sarthakjain-cell.github.io/parking-lot-management'
+  },
+  {
+    id: 4,
+    title: 'FoodBot AI // WhatsApp Ordering SaaS',
+    description: 'Production-grade multi-tenant SaaS automating restaurant workflows via Gemini AI message parsing and real-time Socket.io dashboards.',
+    fullDescription: 'A comprehensive conversational automation suite. Uses generative Gemini AI to dynamically parse menus, variations, and quantities from natural language WhatsApp messages, backed by real-time Socket.io admin logs, multi-tenant configurations, and a built-in virtual smartphone webhook sandbox.',
+    tech: ['React', 'Node.js', 'Express', 'Gemini AI API', 'Socket.io', 'Tailwind CSS'],
+    stats: [
+      { label: 'Parse Latency', value: '< 420ms' },
+      { label: 'Sync Propagation', value: 'Realtime' }
+    ],
+    features: [
+      'Gemini AI conversational menu parser',
+      'Meta Cloud API virtual Webhook sandbox',
+      'Socket.io administrative state pipelines',
+      'Local-persistent isolated Mongoose mocks'
+    ],
+    github: 'https://github.com/sarthakjain-cell/Real-Time-AI-WhatsApp-Ordering-Support-SaaS-Platform',
+    demo: 'https://github.com/sarthakjain-cell/Real-Time-AI-WhatsApp-Ordering-Support-SaaS-Platform'
+  },
+  {
+    id: 5,
+    title: 'Kronos // Next-Gen Student Dashboard',
+    description: 'High-fidelity, server-rendered student learning directory built with Next.js App Router, Supabase state engines, and Framer Motion.',
+    fullDescription: 'A cinematic next-generation learning dashboard. Features secure server-rendered course directory pipelines using Next.js RSC, zero Cumulative Layout Shift (CLS) skeletal hydration structures, responsive bento grid visual designs, and error fallback triggers.',
+    tech: ['Next.js', 'React', 'Supabase', 'Tailwind CSS', 'Framer Motion', 'TypeScript'],
+    stats: [
+      { label: 'Layout Shift (CLS)', value: '0.00' },
+      { label: 'Server Hydration', value: '< 90ms' }
+    ],
+    features: [
+      'Server-Client RSC injection patterns',
+      'Proportional zero-CLS skeleton suspenses',
+      'Responsive Bento Grid component slots',
+      'Build-resilient automatic server fallbacks'
+    ],
+    github: 'https://github.com/sarthakjain-cell/Andaz-Kumar-Front-End-Development-internship',
+    demo: 'https://github.com/sarthakjain-cell/Andaz-Kumar-Front-End-Development-internship'
   }
 ];
 
